@@ -1,20 +1,46 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author puennaja
- */
-public class DM {
+import acm.program.*;
+import acm.graphics.*;
+import java.awt.*;
+import java.awt.geom.*;
+import java.util.HashSet;
+import acm.gui.*;
+import javax.swing.*;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class DM extends GraphicsProgram {
+    private static final int WIDTH = 1280;
+    private static final int HEIGHT = 720;
+    private static final int PAUSE = 5; 
+
+    public void init() 
+    {
+    setSize(WIDTH, HEIGHT);
+    this.resize(WIDTH,HEIGHT);
+    setBackground(Color.GRAY);
+    //draw();
     }
-    
+    /*public void draw()
+    {
+        GRect rect = new GRect (90,220,1100,500);
+        rect.setFilled(true);
+        rect.setColor(Color.GREEN);
+        add(rect);
+        
+        
+        
+    }*/
+    public void run() 
+    {
+        pause(PAUSE);
+        GRect rect = new GRect (90,220,1100,500);
+        rect.setFilled(true);
+        rect.setColor(Color.GREEN);
+        add(rect);
+        int width = getWidth();
+        int height = getHeight();
+        rect.setSize(width, height);
+        
+    }
 }
+
+
