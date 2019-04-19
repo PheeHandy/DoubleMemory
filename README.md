@@ -1,4 +1,4 @@
 # DoubleMemory
 Game Project about Pairing card
 
-from PheeHandy , Puennaja amd Nirucha
+from PheeHandy , Puennaja and NiruchaP
