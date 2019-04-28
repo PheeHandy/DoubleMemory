@@ -1,4 +1,3 @@
-
 import acm.program.*;
 import acm.graphics.*;
 import java.awt.*;
@@ -6,6 +5,7 @@ import java.awt.geom.*;
 import java.util.HashSet;
 import acm.gui.*;
 import javax.swing.*;
+
 
 public class DM extends GraphicsProgram {
     private static final int WIDTH = 1280;
