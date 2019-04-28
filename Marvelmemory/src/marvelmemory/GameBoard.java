@@ -1,5 +1,6 @@
 package marvelmemory;
 
+import java.util.Random;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -15,6 +16,46 @@ public class GameBoard extends javax.swing.JFrame {
      * Creates new form GameBoard
      */
     public GameBoard() {
+        ALL.add(A0);
+        ALL.add(A1);
+        ALL.add(A2);
+        ALL.add(A3);
+        ALL.add(A4);
+        ALL.add(A5);
+        ALL.add(A6);
+        ALL.add(A7);
+        ALL.add(A8);
+        ALL.add(A9);
+        ALL.add(A10);
+        ALL.add(A11);
+        ALL.add(A12);
+        ALL.add(A13);
+        ALL.add(A14);
+        ALL.add(A15);
+        ALL.add(A16);
+        ALL.add(A17);
+        ALL.add(A18);
+        ALL.add(A19);
+        ALL.add(A20);
+        ALL.add(A21);
+        ALL.add(A22);
+        ALL.add(A23);
+        ALL.add(A24);
+        ALL.add(A25);
+        ALL.add(A26);
+        ALL.add(A27);
+        ALL.add(A28);
+        ALL.add(A29);
+        ALL.add(A30);
+        ALL.add(A31);
+        ALL.add(A32);
+        ALL.add(A33);
+        ALL.add(A33);
+        ALL.add(A35);
+        ALL.add(A36);
+        ALL.add(A37);
+        ALL.add(A38);
+        ALL.add(A39);
         initComponents();
     }
     
@@ -348,7 +389,20 @@ public class GameBoard extends javax.swing.JFrame {
 
     // = = = = = = = = = = START GAME BUTTON = = = = = = = = = =
     private void startGameButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startGameButtonActionPerformed
+        Random r = new Random();
+        n = r.nextInt(40);
         System.out.println("============NEW=GAME============");
+        System.out.println("");
+        System.out.println("random n " + n );
+        System.out.println("random n " + (n+1)%40 );
+        System.out.println("random n " + (n+2)%40 );
+        System.out.println("random n " + (n+3)%40 );
+        System.out.println("random n " + (n+4)%40 );
+        System.out.println("random n " + (n+5)%40 );
+        System.out.println("random n " + (n+6)%40 );
+        System.out.println("random n " + (n+7)%40 );
+        
+        
         PrevID_Guess1 = 100;
         PrevID_Guess2 = 100;
         ID_Guess1 = 100;
@@ -633,14 +687,22 @@ public class GameBoard extends javax.swing.JFrame {
         //first define an array list filled with imageicons for tiles. their index is = to their shape code.
         //so to read from it, just pass type to this ArrayList to get the right icon/shape.
         ArrayList<ImageIcon> shapes = new ArrayList();
-        shapes.add(Circle);
-        shapes.add(Cross);
-        shapes.add(Diamond);
-        shapes.add(Donut);
-        shapes.add(Eclipse);
-        shapes.add(Square);
-        shapes.add(Star);
-        shapes.add(X);
+        shapes.add(ALL.get(n%40));
+        shapes.add(ALL.get((n+1)%40));
+        shapes.add(ALL.get((n+2)%40));
+        shapes.add(ALL.get((n+3)%40));
+        shapes.add(ALL.get((n+4)%40));
+        shapes.add(ALL.get((n+5)%40));
+        shapes.add(ALL.get((n+6)%40));
+        shapes.add(ALL.get((n+7)%40));
+        /*shapes.add(A0);
+        shapes.add(A2);
+        shapes.add(A4);
+        shapes.add(A6);
+        shapes.add(A8);
+        shapes.add(A10);
+        shapes.add(A12);
+        shapes.add(A14);*/
 
         //now based on the ID passed, the tile at that case will search the array using type, and set the icon to the one it matches.
         switch(ID){
@@ -993,17 +1055,51 @@ public class GameBoard extends javax.swing.JFrame {
     //GLOBALS
     TileControl tileControl = new TileControl();
    
-    ImageIcon Circle    = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Circle.png"));
-    ImageIcon Cross     = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Cross.png"));
-    ImageIcon Diamond   = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Diamond.png"));
-    ImageIcon Donut     = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Donut.png"));
-    ImageIcon Eclipse   = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Eclipse.png"));
-    ImageIcon Square    = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Square.png"));
-    ImageIcon Star      = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Star.png"));
-    ImageIcon X         = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/X.png"));
     ImageIcon Blank     = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/blankTile.png"));
     ImageIcon WIN       = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/win-loss/WIN.png"));
     ImageIcon LOSS      = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/win-loss/LOSS.png"));
+    ImageIcon A0	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019.png"));
+    ImageIcon A1	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_AntMan.png"));
+    ImageIcon A2	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_BlackPanther.png"));
+    ImageIcon A3	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_BlackWidow.png"));
+    ImageIcon A4	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_CaptainAmerica.png"));
+    ImageIcon A5	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_CaptainMarvel.png"));
+    ImageIcon A6	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_DoctorStrange.png"));
+    ImageIcon A7	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Drax.png"));
+    ImageIcon A8	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Falcon.png"));
+    ImageIcon A9	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Gamora.png"));
+    ImageIcon A10	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Groot.png"));
+    ImageIcon A11	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_HappyHogan.png"));
+    ImageIcon A12	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Hawkeye.png"));
+    ImageIcon A13	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Hulk.png"));
+    ImageIcon A14	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_InfinityGauntlet.png"));
+    ImageIcon A15	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_IronMan.png"));
+    ImageIcon A16	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_KevinFeige.png"));
+    ImageIcon A17	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Korg.png"));
+    ImageIcon A18	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Loki.png"));
+    ImageIcon A19	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Mantis.png"));
+    ImageIcon A20	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_MariaHill.png"));
+    ImageIcon A21	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Mbaku.png"));
+    ImageIcon A22	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Miek.png"));
+    ImageIcon A23	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Nebula.png"));
+    ImageIcon A24	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_NickFury.png"));
+    ImageIcon A25	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Okoye.png"));
+    ImageIcon A26	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_PepperPotts.png"));
+    ImageIcon A27	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_RedSkull.png"));
+    ImageIcon A28	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Rocket.png"));
+    ImageIcon A29	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_ScarletWitch.png"));
+    ImageIcon A30	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Shuri.png"));
+    ImageIcon A31	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Spiderman.png"));
+    ImageIcon A32	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Starlord.png"));
+    ImageIcon A33	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Thanos.png"));
+    ImageIcon A34	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Thor.png"));
+    ImageIcon A35	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Valkyrie.png"));
+    ImageIcon A36	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_WarMachine.png"));
+    ImageIcon A37	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Wasp.png"));
+    ImageIcon A38	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_WinterSoldier.png"));
+    ImageIcon A39	= new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/Marvel/Avengers_Endgame_2019_Wong.png"));
+    ArrayList<ImageIcon> ALL = new ArrayList();
+    
     
     int count = 0;                              //1 for first tile flipped, 2 for second.  if 2, check match.
     int ID_Guess1 = 100, ID_Guess2 = 100;       //the locations of the 2 tiles the user guessed.  if !match, remove icons at these 2 locations.
@@ -1016,4 +1112,5 @@ public class GameBoard extends javax.swing.JFrame {
     double totalPairs;                          //Keeps track of how many pairs happened. used to calculate accuracy %.
     double correctPairs;                        //Keeps track of CORRECT pairs that occur. used to calculate accuracy %.
     double accuracy;
+    int n ;
 }

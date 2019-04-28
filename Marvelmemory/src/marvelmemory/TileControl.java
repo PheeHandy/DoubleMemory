@@ -28,6 +28,28 @@ public class TileControl {
     int triangle1, triangle2;
     int X1, X2;
     
+   
+    int AVG0_1,AVG0_2 ;
+    int AVG1_1,AVG1_2 ;
+    int AVG2_1,AVG2_2 ;
+    int AVG3_1,AVG3_2 ;
+    int AVG4_1,AVG4_2 ;
+    int AVG5_1,AVG5_2 ;
+    int AVG6_1,AVG6_2 ;
+    int AVG7_1,AVG7_2 ;
+    int AVG8_1,AVG8_2 ;
+    int AVG9_1,AVG9_2 ;
+    int AVG10_1,AVG10_2 ;
+    int AVG11_1,AVG11_2 ;
+    int AVG12_1,AVG12_2 ;
+    int AVG13_1,AVG13_2 ;
+    int AVG14_1,AVG14_2 ;
+    int AVG15_1,AVG15_2 ;
+    int AVG16_1,AVG16_2 ;
+    int AVG17_1,AVG17_2 ;
+   
+    
+    
     //========================================================================================
     //          4X4 GAME BOARD TILE CONTROL
     //========================================================================================
@@ -35,8 +57,9 @@ public class TileControl {
     //generate random numbers & assign them to each shape twice.  its their location on the game board.
     public void initShuffle4x4Tiles(){
         int n = 0;
-
+      
         //first add all the numbers from 0 to 15 into an array list, then shuffle it
+        
         List<Integer> randomCollection = new ArrayList<>();
         for (int i = 0; i <= 15; i++){
             randomCollection.add(i); 
@@ -84,6 +107,7 @@ public class TileControl {
         int type = 100;
         
         System.out.print("Shape_Code: ");
+       
         if (ID == circle1 || ID == circle2){
             type = 0;
             System.out.print(type + " - Circle");

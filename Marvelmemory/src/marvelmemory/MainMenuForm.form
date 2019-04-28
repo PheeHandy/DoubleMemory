@@ -34,8 +34,9 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="HowtoplayButton" pref="143" max="32767" attributes="0"/>
                   <Component id="Start4x4Button" pref="143" max="32767" attributes="0"/>
-                  <Component id="Start6x6Button" max="32767" attributes="0"/>
+                  <Component id="Start8x8Button" max="32767" attributes="0"/>
                   <Component id="ExitButton" max="32767" attributes="0"/>
+                  <Component id="Start6x6Button" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -46,17 +47,19 @@
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="MainMenuLabel" alignment="0" pref="510" max="32767" attributes="0"/>
+                  <Component id="MainMenuLabel" alignment="0" max="32767" attributes="0"/>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace pref="184" max="-2" attributes="0"/>
                       <Component id="ExitButton" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
                       <Component id="HowtoplayButton" min="-2" pref="36" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="Start4x4Button" min="-2" pref="37" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                      <Component id="Start6x6Button" min="-2" pref="38" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="Start6x6Button" min="-2" pref="36" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="Start8x8Button" min="-2" pref="38" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
@@ -88,12 +91,12 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Start4x4ButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Start6x6Button">
+    <Component class="javax.swing.JButton" name="Start8x8Button">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Start 6x6 Game"/>
+        <Property name="text" type="java.lang.String" value="Start 8x8 Game"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Start6x6ButtonActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Start8x8ButtonActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="ExitButton">
@@ -105,6 +108,14 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ExitButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Start6x6Button">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Start 6x6 Game"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Start6x6ButtonActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

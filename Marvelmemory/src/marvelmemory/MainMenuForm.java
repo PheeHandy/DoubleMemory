@@ -10,11 +10,13 @@ public class MainMenuForm extends javax.swing.JFrame {
     private javax.swing.JLabel MainMenuLabel;
     private javax.swing.JButton Start4x4Button;
     private javax.swing.JButton Start6x6Button;
+    private javax.swing.JButton Start8x8Button;
     // End of variables declaration//GEN-END:variables
 
     //GLOBALS
     GameBoard smallGame = new GameBoard();
-    GameBoard3_2 mediumGame = new GameBoard3_2(); 
+    GameBoard2 mediumGame = new GameBoard2();
+    GameBoard3_2 hardGame = new GameBoard3_2(); 
     Howtoplay how = new Howtoplay(); 
 
     /**
@@ -36,8 +38,9 @@ public class MainMenuForm extends javax.swing.JFrame {
         MainMenuLabel = new javax.swing.JLabel();
         HowtoplayButton = new javax.swing.JButton();
         Start4x4Button = new javax.swing.JButton();
-        Start6x6Button = new javax.swing.JButton();
+        Start8x8Button = new javax.swing.JButton();
         ExitButton = new javax.swing.JButton();
+        Start6x6Button = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Welcome to MemoryTiles");
@@ -59,10 +62,10 @@ public class MainMenuForm extends javax.swing.JFrame {
             }
         });
 
-        Start6x6Button.setText("Start 6x6 Game");
-        Start6x6Button.addActionListener(new java.awt.event.ActionListener() {
+        Start8x8Button.setText("Start 8x8 Game");
+        Start8x8Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Start6x6ButtonActionPerformed(evt);
+                Start8x8ButtonActionPerformed(evt);
             }
         });
 
@@ -71,6 +74,13 @@ public class MainMenuForm extends javax.swing.JFrame {
         ExitButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ExitButtonActionPerformed(evt);
+            }
+        });
+
+        Start6x6Button.setText("Start 6x6 Game");
+        Start6x6Button.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Start6x6ButtonActionPerformed(evt);
             }
         });
 
@@ -85,8 +95,9 @@ public class MainMenuForm extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(HowtoplayButton, javax.swing.GroupLayout.DEFAULT_SIZE, 143, Short.MAX_VALUE)
                     .addComponent(Start4x4Button, javax.swing.GroupLayout.DEFAULT_SIZE, 143, Short.MAX_VALUE)
-                    .addComponent(Start6x6Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ExitButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(Start8x8Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(ExitButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Start6x6Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -94,17 +105,19 @@ public class MainMenuForm extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(MainMenuLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 510, Short.MAX_VALUE)
+                    .addComponent(MainMenuLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(ExitButton)
-                        .addGap(55, 55, 55)
+                        .addGap(65, 65, 65)
                         .addComponent(HowtoplayButton, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(28, 28, 28)
+                        .addGap(18, 18, 18)
                         .addComponent(Start4x4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(28, 28, 28)
-                        .addComponent(Start6x6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(101, 101, 101)))
+                        .addGap(18, 18, 18)
+                        .addComponent(Start6x6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(Start8x8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(57, 57, 57)))
                 .addGap(41, 41, 41))
         );
 
@@ -128,6 +141,10 @@ public class MainMenuForm extends javax.swing.JFrame {
     }//GEN-LAST:event_ExitButtonActionPerformed
 
     //Play the new 6x6 Tile Game
+    private void Start8x8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start8x8ButtonActionPerformed
+        hardGame.setVisible(true);   
+    }//GEN-LAST:event_Start8x8ButtonActionPerformed
+
     private void Start6x6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start6x6ButtonActionPerformed
         mediumGame.setVisible(true);   
     }//GEN-LAST:event_Start6x6ButtonActionPerformed
