@@ -1,4 +1,4 @@
-package memorygame;
+package marvelmemory;
 
 import java.util.ArrayList;
 import java.util.logging.Level;
@@ -1883,27 +1883,27 @@ public class GameBoard2 extends javax.swing.JFrame {
     //GLOBALS
     TileControl tileControl = new TileControl();
 
-    ImageIcon Blank     = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/blankTile.png"));
-    ImageIcon Circle    = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Circle.png"));
-    ImageIcon Cross     = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Cross.png"));
-    ImageIcon Diamond   = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Diamond.png"));
-    ImageIcon Dice      = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Dice.png"));
-    ImageIcon Donut     = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Donut.png"));
-    ImageIcon Eclipse   = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Eclipse.png"));
-    ImageIcon Eclipse2  = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Eclipse2.png"));
-    ImageIcon Grapes    = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Grapes.png"));
-    ImageIcon Heart     = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Heart.png"));
-    ImageIcon L         = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/L.png"));
-    ImageIcon Rectangle = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Rectangle.png"));
-    ImageIcon Snowflake = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Snowflake.png"));
-    ImageIcon SqDonut   = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/SqDonut.png"));
-    ImageIcon Square    = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Square.png"));
-    ImageIcon Star      = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Star.png"));
-    ImageIcon Tear      = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Tear.png"));
-    ImageIcon Triangle  = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/Triangle.png"));
-    ImageIcon X         = new javax.swing.ImageIcon(getClass().getResource("/memorygame/MGshapes/X.png"));
-    ImageIcon WIN       = new javax.swing.ImageIcon(getClass().getResource("/memorygame/win-loss/WIN.png"));
-    ImageIcon LOSS      = new javax.swing.ImageIcon(getClass().getResource("/memorygame/win-loss/LOSS.png"));
+    ImageIcon Blank     = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/blankTile.png"));
+    ImageIcon Circle    = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Circle.png"));
+    ImageIcon Cross     = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Cross.png"));
+    ImageIcon Diamond   = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Diamond.png"));
+    ImageIcon Dice      = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Dice.png"));
+    ImageIcon Donut     = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Donut.png"));
+    ImageIcon Eclipse   = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Eclipse.png"));
+    ImageIcon Eclipse2  = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Eclipse2.png"));
+    ImageIcon Grapes    = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Grapes.png"));
+    ImageIcon Heart     = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Heart.png"));
+    ImageIcon L         = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/L.png"));
+    ImageIcon Rectangle = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Rectangle.png"));
+    ImageIcon Snowflake = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Snowflake.png"));
+    ImageIcon SqDonut   = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/SqDonut.png"));
+    ImageIcon Square    = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Square.png"));
+    ImageIcon Star      = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Star.png"));
+    ImageIcon Tear      = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Tear.png"));
+    ImageIcon Triangle  = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/Triangle.png"));
+    ImageIcon X         = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/MGshapes/X.png"));
+    ImageIcon WIN       = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/win-loss/WIN.png"));
+    ImageIcon LOSS      = new javax.swing.ImageIcon(getClass().getResource("/marvelmemory/win-loss/LOSS.png"));
     
     int count = 0;                              //1 for first tile flipped, 2 for second.  if 2, check match.
     int ID_Guess1 = 100, ID_Guess2 = 100;       //the locations of the 2 tiles the user guessed.  if !match, remove icons at these 2 locations.

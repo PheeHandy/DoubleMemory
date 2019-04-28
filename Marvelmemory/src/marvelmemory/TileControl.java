@@ -1,4 +1,4 @@
-package memorygame;
+package marvelmemory;
 import java.util.*;
 
 /**
