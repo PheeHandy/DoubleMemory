@@ -14,7 +14,7 @@ public class MainMenuForm extends javax.swing.JFrame {
 
     //GLOBALS
     GameBoard smallGame = new GameBoard();
-    GameBoard2 mediumGame = new GameBoard2(); 
+    GameBoard3_2 mediumGame = new GameBoard3_2(); 
     Howtoplay how = new Howtoplay(); 
 
     /**
@@ -158,6 +158,8 @@ public class MainMenuForm extends javax.swing.JFrame {
             }
         });
     }
+
+
 
 }
 
