@@ -4,6 +4,19 @@ package marvelmemory;
  */
 public class MainMenuForm extends javax.swing.JFrame {
 
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton ExitButton;
+    private javax.swing.JButton HowtoplayButton;
+    private javax.swing.JLabel MainMenuLabel;
+    private javax.swing.JButton Start4x4Button;
+    private javax.swing.JButton Start6x6Button;
+    // End of variables declaration//GEN-END:variables
+
+    //GLOBALS
+    GameBoard smallGame = new GameBoard();
+    GameBoard2 mediumGame = new GameBoard2(); 
+    Howtoplay how = new Howtoplay(); 
+
     /**
      * Creates new form MainMenuForm
      */
@@ -21,6 +34,7 @@ public class MainMenuForm extends javax.swing.JFrame {
     private void initComponents() {
 
         MainMenuLabel = new javax.swing.JLabel();
+        HowtoplayButton = new javax.swing.JButton();
         Start4x4Button = new javax.swing.JButton();
         Start6x6Button = new javax.swing.JButton();
         ExitButton = new javax.swing.JButton();
@@ -30,6 +44,13 @@ public class MainMenuForm extends javax.swing.JFrame {
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         MainMenuLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/memorygame/TitleScreen.png"))); // NOI18N
+
+        HowtoplayButton.setText("How to play!");
+        HowtoplayButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                HowtoplayButtonActionPerformed(evt);
+            }
+        });
 
         Start4x4Button.setText("Start 4x4 Game");
         Start4x4Button.addActionListener(new java.awt.event.ActionListener() {
@@ -60,31 +81,40 @@ public class MainMenuForm extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(MainMenuLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 581, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Start4x4Button, javax.swing.GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)
+                    .addComponent(HowtoplayButton, javax.swing.GroupLayout.DEFAULT_SIZE, 143, Short.MAX_VALUE)
+                    .addComponent(Start4x4Button, javax.swing.GroupLayout.DEFAULT_SIZE, 143, Short.MAX_VALUE)
                     .addComponent(Start6x6Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(ExitButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(29, 29, 29)
-                .addComponent(ExitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(Start4x4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Start6x6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(78, 78, 78))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(MainMenuLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(MainMenuLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 510, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(ExitButton)
+                        .addGap(55, 55, 55)
+                        .addComponent(HowtoplayButton, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)
+                        .addComponent(Start4x4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)
+                        .addComponent(Start6x6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(101, 101, 101)))
+                .addGap(41, 41, 41))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    //Play the Howtoplay Tile game.
+    private void HowtoplayButtonActionPerformed(java.awt.event.ActionEvent evt) {                                               
+        how.setVisible(true);
+    }
 
     //Play the original 4x4 Tile game.
     private void Start4x4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start4x4ButtonActionPerformed
@@ -128,17 +158,6 @@ public class MainMenuForm extends javax.swing.JFrame {
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton ExitButton;
-    private javax.swing.JLabel MainMenuLabel;
-    private javax.swing.JButton Start4x4Button;
-    private javax.swing.JButton Start6x6Button;
-    // End of variables declaration//GEN-END:variables
-
-    //GLOBALS
-    GameBoard smallGame = new GameBoard();
-    GameBoard2 mediumGame = new GameBoard2(); 
 
 }
 

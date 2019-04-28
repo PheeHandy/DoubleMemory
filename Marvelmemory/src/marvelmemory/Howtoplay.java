@@ -43,6 +43,7 @@ public class Howtoplay extends javax.swing.JFrame {
         jTextArea1.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
         jTextArea1.setRows(5);
         jTextArea1.setText("\n\n     Choose a card to reveal the image on the back.\n Choose another card to try and find the matching image.\n If you don't find the matching pair and then you touch\n another card, both cards will turn back over. Make sure\n you remember where each image is, so when you come \n across the missing pair you will know where the original\n one is! Match all the cards to win!");
+        jTextArea1.setBorder(null);
         jScrollPane1.setViewportView(jTextArea1);
 
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -89,6 +90,7 @@ public class Howtoplay extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         System.out.println("HOW TO PLAY C L O S E");
+        this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

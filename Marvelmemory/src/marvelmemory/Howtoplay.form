@@ -87,6 +87,12 @@
             </Property>
             <Property name="rows" type="int" value="5"/>
             <Property name="text" type="java.lang.String" value="&#xa;&#xa;     Choose a card to reveal the image on the back.&#xa; Choose another card to try and find the matching image.&#xa; If you don&apos;t find the matching pair and then you touch&#xa; another card, both cards will turn back over. Make sure&#xa; you remember where each image is, so when you come &#xa; across the missing pair you will know where the original&#xa; one is! Match all the cards to win!"/>
+<<<<<<< HEAD
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+=======
+>>>>>>> 227dabfd24f5b54dc3ca741f89e655628b734d80
           </Properties>
         </Component>
       </SubComponents>
