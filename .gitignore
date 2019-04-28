@@ -24,3 +24,6 @@ hs_err_pid*
 /DM/build/
 /Marvelmemory/nbproject/private/
 /Marvelmemory/build/
+/Marvelmemory/dist/
+Marvelmemory/src/marvelmemory/MainMenuForm.java
+Marvelmemory/src/marvelmemory/MainMenuForm.form
