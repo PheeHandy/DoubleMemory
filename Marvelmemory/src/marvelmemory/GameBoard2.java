@@ -1823,14 +1823,14 @@ public class GameBoard2 extends javax.swing.JFrame {
 
                 if(!match){
                     System.out.println("     *No Match.*     ");
-                    score = score - 2;
+                    score = score - 1;
                     sScore = Integer.toString(score);
                     ScoreScreen.setText(sScore);
                     totalPairs++;
                 }
                 else{
                     System.out.println("     *MATCH!*     ");
-                    score = score + 5;
+                    score = score + 3;
                     sScore = Integer.toString(score);
                     ScoreScreen.setText(sScore);
 
