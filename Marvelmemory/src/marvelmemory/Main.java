@@ -32,17 +32,14 @@ public class Main {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 MainMenuForm MainMenu0 = new MainMenuForm();
                 MainMenu0.setVisible(true);
                 Playmusic m = null;
                 try {
                     m = new Playmusic();
-                } catch (UnsupportedAudioFileException ex) {
-                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-                } catch (IOException ex) {
-                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-                } catch (LineUnavailableException ex) {
+                } catch (UnsupportedAudioFileException | IOException | LineUnavailableException ex) {
                     Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 m.play();
