@@ -1248,7 +1248,7 @@ public class GameBoard2 extends javax.swing.JFrame {
     private void enableDebugActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enableDebugActionPerformed
         try{
             String passphrase = JOptionPane.showInputDialog(rootPane, null, "enter passphrase");
-            if (passphrase.equals("rzqxx5gv")){
+            if (passphrase.equals("doublememory")){
                 DebugCheck.setEnabled(true);
             }
         }

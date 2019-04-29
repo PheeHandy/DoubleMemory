@@ -1686,7 +1686,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
     private void enableDebugActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enableDebugActionPerformed
         try{
             String passphrase = JOptionPane.showInputDialog(rootPane, null, "enter passphrase");
-            if (passphrase.equals("rzqxx5gv")){
+            if (passphrase.equals("doublememory")){
                 DebugCheck.setEnabled(true);
             }
         }
@@ -2391,14 +2391,14 @@ public class GameBoard3_2 extends javax.swing.JFrame {
             
             if (score > 0){
                 JOptionPane.showMessageDialog(rootPane,
-                "                        Congratulations!        \n"       
+                "Congratulations!\n"       
                 + "Your score is " + score + "!\n", 
                 "You Win!", 
                 WIDTH, WIN);
             }
             else{
                 JOptionPane.showMessageDialog(rootPane,
-                "                               Nice Try!\n"
+                "Nice Try!\n"
                 + "Your score is " + score + ".\n"
                 + "You need a score greater than 0 to win.  Try again!", 
                 "You Lose!", 
@@ -2878,7 +2878,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Thread thread = new Thread() {
             public void run() {
                 try {
-                    for (int i = 0; i<= 35; i++){
+                    for (int i = 0; i<= 63; i++){
                         int type = tileControl.get8x8TileType(i);
                         showTileShape(i, type);
                     }
