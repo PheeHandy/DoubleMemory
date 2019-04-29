@@ -1,5 +1,11 @@
 package marvelmemory;
 
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.UnsupportedAudioFileException;
+
 /**
  *
  * @author reprise
@@ -27,7 +33,16 @@ public class Main {
             public void run() {
                 MainMenuForm MainMenu0 = new MainMenuForm();
                 MainMenu0.setVisible(true);
-                Playmusic m = new Playmusic();
+                Playmusic m = null;
+                try {
+                    m = new Playmusic();
+                } catch (UnsupportedAudioFileException ex) {
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+                } catch (IOException ex) {
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+                } catch (LineUnavailableException ex) {
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+                }
                 m.play();
             }
         });    
