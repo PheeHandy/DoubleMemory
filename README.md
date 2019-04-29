@@ -12,7 +12,7 @@ Matching card game done in Java.
 # Table of Contents.
 
 - [About this game](#about)
-- [Rules] (#rules)
+- [Rule](#rule)
 - [Game Mode](#game-mode)
   - [Easy Mode](#easy-mode)
   - [Normal Mode](#normal-mode)
@@ -25,7 +25,7 @@ Matching card game done in Java.
 
 This game is make for practice about ACM JTF Libraries and also for a game project that try out with pairing card game
 
-# Rules 
+# Rule
 
 You need to score this game with more than 0 score to win this game and if you can't score more than that after paired
 all the card. you will lose.
