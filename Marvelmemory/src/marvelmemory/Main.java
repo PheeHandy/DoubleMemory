@@ -33,6 +33,7 @@ public class Main {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override
+            //run MainMenuForm with music in Playmusic class
             public void run() {
                 MainMenuForm MainMenu0 = new MainMenuForm();
                 MainMenu0.setVisible(true);

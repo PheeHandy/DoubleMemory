@@ -28,34 +28,18 @@ public class Playmusic {
     Clip clip; 
     AudioInputStream audioInputStream; 
     static String filePath; 
-    
+    //play music once
     public Playmusic() throws UnsupportedAudioFileException, IOException, LineUnavailableException  
     { 
         filePath = "src/memorygame/avengersong.wav";
         audioInputStream =  AudioSystem.getAudioInputStream(new File(filePath).getAbsoluteFile()); 
         clip = AudioSystem.getClip(); 
         clip.open(audioInputStream); 
-        //clip.loop(Clip.LOOP_CONTINUOUSLY); 
+        //clip.loop(Clip.LOOP_CONTINUOUSLY); if want to loop music
     } 
     public void play()  
     { 
         clip.start(); 
     } 
-   /* void play(String filepath){
-        
-        try{
-            File f = new File(filepath);
-            if(f.exists()){
-                AudioInputStream audioinput = AudioSystem.getAudioInputStream(f);
-                Clip clip = AudioSystem.getClip();
-                clip.start();
-            }else{
-                System.out.println("can't find file");
-            }
-        }
-        catch(Exception ex){
-            ex.printStackTrace();
-            System.out.println("xxx");
-        }
-    }*/
+   
 }

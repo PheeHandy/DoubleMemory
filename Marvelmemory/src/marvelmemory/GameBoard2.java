@@ -1328,7 +1328,7 @@ public class GameBoard2 extends javax.swing.JFrame {
     
     // will display an icon on the button based on the shape_code that the button asks for prior to calling this sub.
     private void showTileShape(int ID, int type){
-        ImageIcon shape = new javax.swing.ImageIcon();
+        //ImageIcon shape = new javax.swing.ImageIcon();
         //first define an array list filled with imageicons for tiles. their index is = to their shape code.
         //so to read from it, just pass type to this ArrayList to get the right icon/shape.
         ArrayList<ImageIcon> shapes = new ArrayList();
