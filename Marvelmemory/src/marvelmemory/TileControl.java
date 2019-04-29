@@ -60,27 +60,6 @@ public class TileControl {
     int A30, AA30;
     int A31, AA31;
     int A32, AA32;
-
-    
-   
-    int AVG0_1,AVG0_2 ;
-    int AVG1_1,AVG1_2 ;
-    int AVG2_1,AVG2_2 ;
-    int AVG3_1,AVG3_2 ;
-    int AVG4_1,AVG4_2 ;
-    int AVG5_1,AVG5_2 ;
-    int AVG6_1,AVG6_2 ;
-    int AVG7_1,AVG7_2 ;
-    int AVG8_1,AVG8_2 ;
-    int AVG9_1,AVG9_2 ;
-    int AVG10_1,AVG10_2 ;
-    int AVG11_1,AVG11_2 ;
-    int AVG12_1,AVG12_2 ;
-    int AVG13_1,AVG13_2 ;
-    int AVG14_1,AVG14_2 ;
-    int AVG15_1,AVG15_2 ;
-    int AVG16_1,AVG16_2 ;
-    int AVG17_1,AVG17_2 ;
    
     
     
