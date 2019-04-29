@@ -903,25 +903,23 @@ public class GameBoard extends javax.swing.JFrame {
                 !Tile31.isEnabled() && !Tile32.isEnabled() && !Tile33.isEnabled() && !Tile34.isEnabled() &&
                 !Tile41.isEnabled() && !Tile42.isEnabled() && !Tile43.isEnabled() && !Tile44.isEnabled()){
         
-            accuracy = correctPairs / totalPairs * 100;
+            /*accuracy = correctPairs / totalPairs * 100;
             accuracy = Math.round (accuracy * 10.0) / 10.0; 
             System.out.println("============GAME=OVER===========\n"
                         + "Total Pairs: " + totalPairs + " Correct Pairs: " + correctPairs + "\n"
                         + "Accuracy: " + accuracy + "%\n"
-                        + "Score: " + score);
+                        + "Score: " + score);*/
             
             if (score > 0){
                 JOptionPane.showMessageDialog(rootPane,
-                "                        Congratulations!        \n"
-                + "You finished the game successfully with " + accuracy  + "% accuracy, \n"
-                + "And a final score of " + score + "!\n", 
+                " Congratulations! \n"
+                + "a final score of " + score + "!\n", 
                 "You Win!", 
                 WIDTH, WIN);
             }
             else{
                 JOptionPane.showMessageDialog(rootPane,
-                "                               Nice Try!\n"
-                + "you finished the game with " + accuracy + "% accuracy.\n"
+                " Nice Try!\n"
                 + "However your score is " + score + ".\n"
                 + "You need a score greater than 0 to win.  Try again!", 
                 "You Lose!", 

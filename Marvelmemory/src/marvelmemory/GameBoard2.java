@@ -1534,16 +1534,14 @@ public class GameBoard2 extends javax.swing.JFrame {
             
             if (score > 0){
                 JOptionPane.showMessageDialog(rootPane,
-                "                        Congratulations!        \n"
-                + "You finished the game successfully with " + accuracy  + "% accuracy, \n"
-                + "And a final score of " + score + "!\n", 
+                " Congratulations! \n"
+                + "a final score of " + score + "!\n", 
                 "You Win!", 
                 WIDTH, WIN);
             }
             else{
                 JOptionPane.showMessageDialog(rootPane,
-                "                               Nice Try!\n"
-                + "you finished the game with " + accuracy + "% accuracy.\n"
+                " Nice Try!\n"
                 + "However your score is " + score + ".\n"
                 + "You need a score greater than 0 to win.  Try again!", 
                 "You Lose!", 
