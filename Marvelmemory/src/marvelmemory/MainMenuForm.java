@@ -1,5 +1,7 @@
 package marvelmemory;
 
+import java.awt.Toolkit;
+
 
 /**
  * @author reprise
@@ -15,6 +17,7 @@ public class MainMenuForm extends javax.swing.JFrame {
     private javax.swing.JButton Start8x8Button;
     // End of variables declaration//GEN-END:variables
 
+
     //GLOBALS
     GameBoard smallGame = new GameBoard();
     GameBoard2 mediumGame = new GameBoard2();
@@ -26,8 +29,12 @@ public class MainMenuForm extends javax.swing.JFrame {
      */
     public MainMenuForm() {
         initComponents();
+        seticon();
     }
-
+    //Set icon of JFrame
+    private void seticon() {
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("icon.png")));
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -149,8 +156,10 @@ public class MainMenuForm extends javax.swing.JFrame {
     private void Start6x6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start6x6ButtonActionPerformed
         mediumGame.setVisible(true);   
     }//GEN-LAST:event_Start6x6ButtonActionPerformed
+    
 
     public static void main(String args[]) {
+        
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
