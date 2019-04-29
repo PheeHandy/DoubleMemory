@@ -28,7 +28,7 @@ public class Main {
                 MainMenuForm MainMenu0 = new MainMenuForm();
                 MainMenu0.setVisible(true);
                 Playmusic m = new Playmusic();
-                m.play("src/memorygame/avengersong.wav");
+                m.play();
             }
         });    
     }
