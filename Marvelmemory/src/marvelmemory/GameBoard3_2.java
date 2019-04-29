@@ -25,6 +25,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jScrollPane2 = new javax.swing.JScrollPane();
         ScoreScreenLabel = new javax.swing.JLabel();
         ScoreScreen = new javax.swing.JTextField();
         startGameButton = new javax.swing.JButton();
@@ -102,7 +103,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         enableDebug = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("6x6 Memory Game");
+        setTitle("8x8 Memory Game");
 
         ScoreScreenLabel.setFont(new java.awt.Font("FreeSerif", 1, 14)); // NOI18N
         ScoreScreenLabel.setText("SCORE:");
@@ -127,7 +128,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile12.setFocusable(false);
         Tile12.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile12.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile12.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile12.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile12ActionPerformed(evt);
@@ -138,7 +139,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile13.setFocusable(false);
         Tile13.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile13.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile13.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile13.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile13ActionPerformed(evt);
@@ -149,7 +150,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile14.setFocusable(false);
         Tile14.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile14.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile14.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile14.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile14ActionPerformed(evt);
@@ -160,7 +161,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile15.setFocusable(false);
         Tile15.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile15.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile15.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile15.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile15ActionPerformed(evt);
@@ -171,7 +172,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile11.setFocusable(false);
         Tile11.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile11.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile11.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile11.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile11ActionPerformed(evt);
@@ -182,7 +183,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile16.setFocusable(false);
         Tile16.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile16.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile16.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile16.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile16ActionPerformed(evt);
@@ -193,7 +194,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile22.setFocusable(false);
         Tile22.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile22.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile22.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile22.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile22ActionPerformed(evt);
@@ -204,7 +205,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile26.setFocusable(false);
         Tile26.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile26.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile26.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile26.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile26ActionPerformed(evt);
@@ -215,7 +216,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile23.setFocusable(false);
         Tile23.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile23.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile23.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile23.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile23ActionPerformed(evt);
@@ -226,7 +227,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile24.setFocusable(false);
         Tile24.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile24.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile24.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile24.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile24ActionPerformed(evt);
@@ -237,7 +238,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile25.setFocusable(false);
         Tile25.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile25.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile25.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile25.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile25ActionPerformed(evt);
@@ -248,7 +249,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile21.setFocusable(false);
         Tile21.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile21.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile21.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile21.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile21ActionPerformed(evt);
@@ -259,7 +260,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile32.setFocusable(false);
         Tile32.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile32.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile32.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile32.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile32ActionPerformed(evt);
@@ -270,7 +271,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile36.setFocusable(false);
         Tile36.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile36.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile36.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile36.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile36ActionPerformed(evt);
@@ -281,7 +282,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile33.setFocusable(false);
         Tile33.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile33.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile33.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile33.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile33ActionPerformed(evt);
@@ -292,7 +293,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile34.setFocusable(false);
         Tile34.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile34.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile34.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile34.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile34ActionPerformed(evt);
@@ -303,7 +304,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile35.setFocusable(false);
         Tile35.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile35.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile35.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile35.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile35ActionPerformed(evt);
@@ -314,7 +315,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile31.setFocusable(false);
         Tile31.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile31.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile31.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile31.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile31ActionPerformed(evt);
@@ -325,7 +326,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile42.setFocusable(false);
         Tile42.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile42.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile42.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile42.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile42ActionPerformed(evt);
@@ -336,7 +337,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile46.setFocusable(false);
         Tile46.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile46.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile46.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile46.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile46ActionPerformed(evt);
@@ -347,7 +348,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile43.setFocusable(false);
         Tile43.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile43.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile43.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile43.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile43ActionPerformed(evt);
@@ -358,7 +359,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile44.setFocusable(false);
         Tile44.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile44.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile44.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile44.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile44.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile44ActionPerformed(evt);
@@ -369,7 +370,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile45.setFocusable(false);
         Tile45.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile45.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile45.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile45.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile45ActionPerformed(evt);
@@ -380,7 +381,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile41.setFocusable(false);
         Tile41.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile41.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile41.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile41.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile41ActionPerformed(evt);
@@ -391,7 +392,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile52.setFocusable(false);
         Tile52.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile52.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile52.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile52.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile52ActionPerformed(evt);
@@ -402,7 +403,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile56.setFocusable(false);
         Tile56.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile56.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile56.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile56.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile56ActionPerformed(evt);
@@ -413,7 +414,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile53.setFocusable(false);
         Tile53.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile53.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile53.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile53.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile53ActionPerformed(evt);
@@ -424,7 +425,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile54.setFocusable(false);
         Tile54.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile54.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile54.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile54.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile54ActionPerformed(evt);
@@ -435,7 +436,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile55.setFocusable(false);
         Tile55.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile55.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile55.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile55.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile55.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile55ActionPerformed(evt);
@@ -446,7 +447,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile51.setFocusable(false);
         Tile51.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile51.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile51.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile51.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile51ActionPerformed(evt);
@@ -457,7 +458,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile62.setFocusable(false);
         Tile62.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile62.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile62.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile62.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile62ActionPerformed(evt);
@@ -468,7 +469,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile66.setFocusable(false);
         Tile66.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile66.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile66.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile66.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile66ActionPerformed(evt);
@@ -479,7 +480,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile63.setFocusable(false);
         Tile63.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile63.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile63.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile63.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile63ActionPerformed(evt);
@@ -490,7 +491,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile64.setFocusable(false);
         Tile64.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile64.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile64.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile64.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile64ActionPerformed(evt);
@@ -501,7 +502,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile65.setFocusable(false);
         Tile65.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile65.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile65.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile65.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile65.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile65ActionPerformed(evt);
@@ -512,7 +513,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile61.setFocusable(false);
         Tile61.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile61.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile61.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile61.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile61.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile61ActionPerformed(evt);
@@ -534,7 +535,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile17.setFocusable(false);
         Tile17.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile17.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile17.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile17.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile17ActionPerformed(evt);
@@ -545,7 +546,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile18.setFocusable(false);
         Tile18.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile18.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile18.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile18.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile18ActionPerformed(evt);
@@ -556,7 +557,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile27.setFocusable(false);
         Tile27.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile27.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile27.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile27.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile27ActionPerformed(evt);
@@ -567,7 +568,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile28.setFocusable(false);
         Tile28.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile28.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile28.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile28.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile28ActionPerformed(evt);
@@ -578,7 +579,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile37.setFocusable(false);
         Tile37.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile37.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile37.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile37.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile37ActionPerformed(evt);
@@ -589,7 +590,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile38.setFocusable(false);
         Tile38.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile38.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile38.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile38.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile38ActionPerformed(evt);
@@ -600,7 +601,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile47.setFocusable(false);
         Tile47.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile47.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile47.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile47.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile47ActionPerformed(evt);
@@ -611,7 +612,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile48.setFocusable(false);
         Tile48.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile48.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile48.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile48.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile48ActionPerformed(evt);
@@ -622,7 +623,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile57.setFocusable(false);
         Tile57.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile57.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile57.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile57.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile57ActionPerformed(evt);
@@ -633,7 +634,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile58.setFocusable(false);
         Tile58.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile58.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile58.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile58.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile58.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile58ActionPerformed(evt);
@@ -644,7 +645,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile67.setFocusable(false);
         Tile67.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile67.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile67.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile67.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile67ActionPerformed(evt);
@@ -655,7 +656,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile68.setFocusable(false);
         Tile68.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile68.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile68.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile68.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile68ActionPerformed(evt);
@@ -666,7 +667,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile71.setFocusable(false);
         Tile71.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile71.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile71.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile71.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile71.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile71ActionPerformed(evt);
@@ -677,7 +678,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile72.setFocusable(false);
         Tile72.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile72.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile72.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile72.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile72.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile72ActionPerformed(evt);
@@ -688,7 +689,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile73.setFocusable(false);
         Tile73.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile73.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile73.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile73.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile73.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile73ActionPerformed(evt);
@@ -699,7 +700,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile74.setFocusable(false);
         Tile74.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile74.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile74.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile74.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile74.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile74ActionPerformed(evt);
@@ -710,7 +711,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile75.setFocusable(false);
         Tile75.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile75.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile75.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile75.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile75.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile75ActionPerformed(evt);
@@ -721,7 +722,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile76.setFocusable(false);
         Tile76.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile76.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile76.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile76.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile76.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile76ActionPerformed(evt);
@@ -732,7 +733,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile77.setFocusable(false);
         Tile77.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile77.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile77.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile77.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile77.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile77ActionPerformed(evt);
@@ -743,7 +744,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile78.setFocusable(false);
         Tile78.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile78.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile78.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile78.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile78.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile78ActionPerformed(evt);
@@ -754,7 +755,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile81.setFocusable(false);
         Tile81.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile81.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile81.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile81.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile81.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile81ActionPerformed(evt);
@@ -765,7 +766,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile82.setFocusable(false);
         Tile82.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile82.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile82.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile82.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile82.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile82ActionPerformed(evt);
@@ -776,7 +777,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile83.setFocusable(false);
         Tile83.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile83.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile83.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile83.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile83.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile83ActionPerformed(evt);
@@ -787,7 +788,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile84.setFocusable(false);
         Tile84.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile84.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile84.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile84.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile84.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile84ActionPerformed(evt);
@@ -798,7 +799,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile85.setFocusable(false);
         Tile85.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile85.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile85.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile85.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile85.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile85ActionPerformed(evt);
@@ -809,7 +810,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile86.setFocusable(false);
         Tile86.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile86.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile86.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile86.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile86.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile86ActionPerformed(evt);
@@ -820,7 +821,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile87.setFocusable(false);
         Tile87.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile87.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile87.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile87.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile87.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile87ActionPerformed(evt);
@@ -831,7 +832,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         Tile88.setFocusable(false);
         Tile88.setMaximumSize(new java.awt.Dimension(32, 10));
         Tile88.setMinimumSize(new java.awt.Dimension(32, 10));
-        Tile88.setPreferredSize(new java.awt.Dimension(30, 10));
+        Tile88.setPreferredSize(new java.awt.Dimension(80, 80));
         Tile88.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Tile88ActionPerformed(evt);
@@ -877,156 +878,149 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(27, 27, 27)
+                .addGap(50, 50, 50)
+                .addComponent(ScoreScreenLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(ScoreScreen, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(8, 8, 8)
+                .addComponent(startGameButton)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(QuitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(DebugCheck)
+                .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(29, 29, 29)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(Tile11, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile12, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile13, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile14, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(ScoreScreenLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(ScoreScreen, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(8, 8, 8)
-                                .addComponent(startGameButton)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(QuitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(DebugCheck))
-                            .addGroup(layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile15, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile17, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile18, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 16, Short.MAX_VALUE))))
+                        .addComponent(Tile11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(Tile81, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile82, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile83, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile84, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile85, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile86, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile87, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile88, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(Tile71, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile72, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile73, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile74, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile75, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile76, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile77, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile78, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(Tile61, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile62, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile63, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile64, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile65, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile66, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile67, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile68, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(Tile41, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile42, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile43, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile44, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile45, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile46, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile47, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile48, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(Tile51, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile52, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile53, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile54, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile55, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile56, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile57, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile58, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(Tile21, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile22, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile23, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile24, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile25, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile26, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile27, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile28, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(Tile31, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile32, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile33, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile34, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile35, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile36, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile37, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Tile38, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addComponent(Tile81, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile82, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile83, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile84, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile85, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile86, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile87, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile88, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(Tile71, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile72, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile73, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile74, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile75, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile76, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile77, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile78, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(Tile61, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile63, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile64, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile65, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile66, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile68, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(Tile41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile47, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(Tile51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile52, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile53, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile56, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile57, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile58, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(Tile21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(Tile31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tile38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(20, 20, 20))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1039,96 +1033,95 @@ public class GameBoard3_2 extends javax.swing.JFrame {
                         .addComponent(startGameButton, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(QuitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(DebugCheck)))
-                .addGap(36, 36, 36)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(Tile12, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile13, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile14, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile11, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile17, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(Tile15, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Tile18, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(Tile15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Tile18, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(Tile26, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Tile22, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Tile23, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Tile25, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Tile24, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Tile21, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(Tile27, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Tile28, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(Tile27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(Tile28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(Tile36, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(Tile32, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(Tile33, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(Tile35, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(Tile34, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(Tile31, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(Tile37, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(Tile38, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(Tile36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Tile32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Tile33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Tile35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Tile34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Tile31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Tile37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(Tile38, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(Tile46, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(Tile42, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(Tile43, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(Tile45, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(Tile44, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(Tile41, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(Tile48, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(Tile47, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(Tile46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Tile42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Tile43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Tile45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Tile44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(Tile41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(Tile48, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(Tile47, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(Tile56, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Tile52, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Tile53, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Tile55, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Tile54, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Tile51, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(Tile58, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(Tile57, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(Tile56, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile52, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile53, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tile58, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(Tile57, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(Tile66, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile62, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile63, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile65, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile64, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile61, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile67, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile68, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Tile66, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile63, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile65, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile64, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile61, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile68, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Tile71, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile72, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile73, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile74, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile75, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile76, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile77, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile78, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Tile71, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile72, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile73, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile74, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile75, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile76, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile77, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile78, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Tile81, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile82, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile83, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile84, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile85, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile86, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile87, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tile88, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(Tile81, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile82, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile83, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile84, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile85, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile86, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile87, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tile88, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(29, Short.MAX_VALUE))
         );
 
         pack();
@@ -1222,10 +1215,10 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         wipeBoard();
 
         //generate random #'s and assign them to shapes as IDs.
-        tileControl.initShuffle6x6Tiles();
+        tileControl.initShuffle8x8Tiles();
         for (int i = 0; i<= 63; i++){
             System.out.print(i + ": ");
-            int type = tileControl.get6x6TileType(i);
+            int type = tileControl.get8x8TileType(i);
             
             //will show all the shapes on the buttons, for debugging reasons. if box is ticked.
             if (DebugCheck.isSelected()){
@@ -1243,7 +1236,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
     //desc="Reset the board as if it had never been opened, and then close it.  doesn't quit program."
     private void QuitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_QuitButtonActionPerformed
         System.out.println("========================\n"
-                         + "*** 6 x 6  C L O S E ***\n"
+                         + "*** 8 x 8  C L O S E ***\n"
                          + "========================");
         wipeBoard();
         PrevID_Guess1 = 100;
@@ -1335,7 +1328,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("1,1 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile11ActionPerformed
     
@@ -1345,7 +1338,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("1,2 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile12ActionPerformed
 
@@ -1355,7 +1348,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("1,3 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile13ActionPerformed
 
@@ -1365,7 +1358,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("1,6 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile14ActionPerformed
 
@@ -1375,7 +1368,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("1,5 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile15ActionPerformed
 
@@ -1385,7 +1378,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("1,6 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile16ActionPerformed
 
@@ -1395,7 +1388,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("2,1 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile21ActionPerformed
 
@@ -1405,7 +1398,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("2,2 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile22ActionPerformed
 
@@ -1415,7 +1408,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("2,3 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile23ActionPerformed
 
@@ -1425,7 +1418,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("2,4 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile24ActionPerformed
 
@@ -1435,7 +1428,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("2,5 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile25ActionPerformed
 
@@ -1445,7 +1438,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("2,6 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile26ActionPerformed
 
@@ -1455,7 +1448,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("3,1 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile31ActionPerformed
 
@@ -1465,7 +1458,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("3,2 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile32ActionPerformed
 
@@ -1475,7 +1468,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("3,3 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile33ActionPerformed
 
@@ -1485,7 +1478,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("3,4 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile34ActionPerformed
 
@@ -1495,7 +1488,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("3,5 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile35ActionPerformed
 
@@ -1505,7 +1498,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("3,1 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile36ActionPerformed
 
@@ -1515,7 +1508,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("4,1 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile41ActionPerformed
 
@@ -1525,7 +1518,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("4,2 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile42ActionPerformed
 
@@ -1535,7 +1528,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("4,3 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile43ActionPerformed
 
@@ -1545,7 +1538,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("4,4 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile44ActionPerformed
 
@@ -1555,7 +1548,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("4,5 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile45ActionPerformed
 
@@ -1565,7 +1558,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("4,6 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type); 
     }//GEN-LAST:event_Tile46ActionPerformed
     
@@ -1575,7 +1568,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("5,1 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile51ActionPerformed
 
@@ -1585,7 +1578,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("5,2 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile52ActionPerformed
 
@@ -1595,7 +1588,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("5,3 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile53ActionPerformed
 
@@ -1605,7 +1598,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("5,4 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile54ActionPerformed
 
@@ -1615,7 +1608,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("5,5 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile55ActionPerformed
 
@@ -1625,7 +1618,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("5,6 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile56ActionPerformed
 
@@ -1635,7 +1628,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("6,1 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile61ActionPerformed
 
@@ -1645,7 +1638,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("6,2 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile62ActionPerformed
 
@@ -1655,7 +1648,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("6,3 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile63ActionPerformed
 
@@ -1665,7 +1658,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("6,4 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile64ActionPerformed
 
@@ -1675,7 +1668,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("6,5 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile65ActionPerformed
 
@@ -1685,7 +1678,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("6,6 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile66ActionPerformed
 
@@ -1791,7 +1784,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
     //File>Quit
     private void QuitMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_QuitMenuItemActionPerformed
         System.out.println("========================\n"
-                 + "*** 6 x 6  C L O S E ***\n"
+                 + "*** 8 x 8  C L O S E ***\n"
                  + "========================");
         resetBoardMenuItemActionPerformed(evt);
         this.dispose();
@@ -1802,7 +1795,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("1,7 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile17ActionPerformed
 
@@ -1811,7 +1804,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("1,8 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile18ActionPerformed
 
@@ -1820,7 +1813,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("2,7 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile27ActionPerformed
 
@@ -1829,7 +1822,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("2,8 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile28ActionPerformed
 
@@ -1838,7 +1831,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("3,7 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile37ActionPerformed
 
@@ -1847,7 +1840,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("3,8 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile38ActionPerformed
 
@@ -1856,7 +1849,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("4,7 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile47ActionPerformed
 
@@ -1865,7 +1858,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("4,8 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile48ActionPerformed
 
@@ -1874,7 +1867,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("5,7 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile57ActionPerformed
 
@@ -1883,7 +1876,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("5,8 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile58ActionPerformed
 
@@ -1892,7 +1885,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("6,7 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile67ActionPerformed
 
@@ -1901,7 +1894,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("6,8 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile68ActionPerformed
 
@@ -1910,7 +1903,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("7,1 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile71ActionPerformed
 
@@ -1919,7 +1912,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("7,2 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile72ActionPerformed
 
@@ -1928,7 +1921,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("7,3 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile73ActionPerformed
 
@@ -1937,7 +1930,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("7,4 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile74ActionPerformed
 
@@ -1946,7 +1939,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("7,5 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile75ActionPerformed
 
@@ -1955,7 +1948,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("7,6 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile76ActionPerformed
 
@@ -1964,7 +1957,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("7,7 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile77ActionPerformed
 
@@ -1973,7 +1966,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("7,8 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile78ActionPerformed
 
@@ -1982,7 +1975,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("8,1 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile81ActionPerformed
 
@@ -1991,7 +1984,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("8,2 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile82ActionPerformed
 
@@ -2000,7 +1993,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("8,3 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile83ActionPerformed
 
@@ -2009,7 +2002,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("8,4 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile84ActionPerformed
 
@@ -2018,7 +2011,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("8,5 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile85ActionPerformed
 
@@ -2027,7 +2020,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("8,6 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile86ActionPerformed
 
@@ -2036,7 +2029,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("8,7 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile87ActionPerformed
 
@@ -2045,7 +2038,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         int type;
                 
         System.out.print("8,8 -- ");
-        type = tileControl.get6x6TileType(ID);
+        type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile88ActionPerformed
     
@@ -2057,24 +2050,6 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         //first define an array list filled with imageicons for tiles. their index is = to their shape code.
         //so to read from it, just pass type to this ArrayList to get the right icon/shape.
         ArrayList<ImageIcon> shapes = new ArrayList();
-        /*shapes.add(Circle);
-        shapes.add(Cross);
-        shapes.add(Diamond);
-        shapes.add(Dice);
-        shapes.add(Donut);
-        shapes.add(Eclipse);
-        shapes.add(Eclipse2);
-        shapes.add(Grapes);
-        shapes.add(Heart);
-        shapes.add(L);
-        shapes.add(Rectangle);
-        shapes.add(Snowflake);
-        shapes.add(SqDonut);
-        shapes.add(Square);
-        shapes.add(Star);
-        shapes.add(Tear);
-        shapes.add(Triangle); 
-        shapes.add(X); */
         shapes.add(A0);
         shapes.add(A1);
         shapes.add(A2);
@@ -2906,7 +2881,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
             public void run() {
                 try {
                     for (int i = 0; i<= 35; i++){
-                        int type = tileControl.get6x6TileType(i);
+                        int type = tileControl.get8x8TileType(i);
                         showTileShape(i, type);
                     }
                     Thread.sleep(1200);
@@ -2997,6 +2972,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JMenuItem resetBoardMenuItem;
     private javax.swing.JButton startGameButton;
     // End of variables declaration//GEN-END:variables
