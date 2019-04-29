@@ -912,15 +912,15 @@ public class GameBoard extends javax.swing.JFrame {
             
             if (score > 0){
                 JOptionPane.showMessageDialog(rootPane,
-                " Congratulations! \n"
-                + "a final score of " + score + "!\n", 
+                "Congratulations!\n"       
+                + "Your score is " + score + "!\n", 
                 "You Win!", 
                 WIDTH, WIN);
             }
             else{
                 JOptionPane.showMessageDialog(rootPane,
-                " Nice Try!\n"
-                + "However your score is " + score + ".\n"
+                "Nice Try!\n"
+                + "Your score is " + score + ".\n"
                 + "You need a score greater than 0 to win.  Try again!", 
                 "You Lose!", 
                 WIDTH, LOSS);
