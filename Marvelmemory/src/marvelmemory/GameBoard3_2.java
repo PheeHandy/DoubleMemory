@@ -1790,6 +1790,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_QuitMenuItemActionPerformed
 
+    //Tile 1,7 | ID 36 - Press
     private void Tile17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile17ActionPerformed
         int ID = 36;
         int type;
@@ -1798,7 +1799,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile17ActionPerformed
-
+    
+    //Tile 1,8 | ID 37 - Press
     private void Tile18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile18ActionPerformed
         int ID = 37;
         int type;
@@ -1807,7 +1809,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile18ActionPerformed
-
+    
+    //Tile 2,7 | ID 38 - Press
     private void Tile27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile27ActionPerformed
         int ID = 38;
         int type;
@@ -1816,7 +1819,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile27ActionPerformed
-
+    
+    //Tile 2,8 | ID 39 - Press
     private void Tile28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile28ActionPerformed
         int ID = 39;
         int type;
@@ -1825,7 +1829,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile28ActionPerformed
-
+    
+    //Tile 3,7 | ID 40 - Press
     private void Tile37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile37ActionPerformed
         int ID = 40;
         int type;
@@ -1834,7 +1839,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile37ActionPerformed
-
+    
+    //Tile 3,8 | ID 41 - Press
     private void Tile38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile38ActionPerformed
         int ID = 41;
         int type;
@@ -1843,7 +1849,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile38ActionPerformed
-
+    
+    //Tile 4,7 | ID 42 - Press
     private void Tile47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile47ActionPerformed
         int ID = 42;
         int type;
@@ -1852,7 +1859,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile47ActionPerformed
-
+    
+    //Tile 4,8 | ID 43 - Press
     private void Tile48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile48ActionPerformed
         int ID = 43;
         int type;
@@ -1861,7 +1869,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile48ActionPerformed
-
+    
+    //Tile 5,7 | ID 44 - Press
     private void Tile57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile57ActionPerformed
         int ID = 44;
         int type;
@@ -1870,7 +1879,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile57ActionPerformed
-
+    
+    //Tile 5,8 | ID 45 - Press
     private void Tile58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile58ActionPerformed
         int ID = 45;
         int type;
@@ -1879,7 +1889,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile58ActionPerformed
-
+    
+    //Tile 6,7 | ID 46 - Press
     private void Tile67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile67ActionPerformed
         int ID = 46;
         int type;
@@ -1888,7 +1899,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile67ActionPerformed
-
+    
+    //Tile 6,8 | ID 47 - Press
     private void Tile68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile68ActionPerformed
         int ID = 47;
         int type;
@@ -1897,7 +1909,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile68ActionPerformed
-
+    
+    //Tile 7,1 | ID 48 - Press
     private void Tile71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile71ActionPerformed
         int ID = 48;
         int type;
@@ -1906,7 +1919,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile71ActionPerformed
-
+    
+    //Tile 7,2 | ID 49 - Press
     private void Tile72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile72ActionPerformed
         int ID = 49;
         int type;
@@ -1915,7 +1929,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile72ActionPerformed
-
+    
+    //Tile 7,3 | ID 50 - Press
     private void Tile73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile73ActionPerformed
         int ID = 50;
         int type;
@@ -1924,7 +1939,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile73ActionPerformed
-
+    
+    //Tile 7,4 | ID 51 - Press
     private void Tile74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile74ActionPerformed
         int ID = 51;
         int type;
@@ -1933,7 +1949,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile74ActionPerformed
-
+    
+    //Tile 7,5 | ID 52 - Press
     private void Tile75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile75ActionPerformed
         int ID = 52;
         int type;
@@ -1942,7 +1959,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile75ActionPerformed
-
+    
+    //Tile 7,6 | ID 53 - Press
     private void Tile76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile76ActionPerformed
         int ID = 53;
         int type;
@@ -1951,7 +1969,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile76ActionPerformed
-
+    
+    //Tile 7,7 | ID 54 - Press
     private void Tile77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile77ActionPerformed
         int ID = 54;
         int type;
@@ -1960,7 +1979,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile77ActionPerformed
-
+    
+    //Tile 7,8 | ID 55 - Press
     private void Tile78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile78ActionPerformed
         int ID = 55;
         int type;
@@ -1969,7 +1989,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile78ActionPerformed
-
+    
+    //Tile 8,1 | ID 56 - Press
     private void Tile81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile81ActionPerformed
         int ID = 56;
         int type;
@@ -1978,7 +1999,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile81ActionPerformed
-
+    
+    //Tile 8,2 | ID 57 - Press
     private void Tile82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile82ActionPerformed
         int ID = 57;
         int type;
@@ -1987,7 +2009,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile82ActionPerformed
-
+    
+    //Tile 8,3 | ID 58 - Press
     private void Tile83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile83ActionPerformed
         int ID = 58;
         int type;
@@ -1996,7 +2019,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile83ActionPerformed
-
+    
+    //Tile 8,4 | ID 59 - Press
     private void Tile84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile84ActionPerformed
         int ID = 59;
         int type;
@@ -2005,7 +2029,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile84ActionPerformed
-
+    
+    //Tile 8,5 | ID 60 - Press
     private void Tile85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile85ActionPerformed
         int ID = 60;
         int type;
@@ -2014,7 +2039,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile85ActionPerformed
-
+    
+    //Tile 8,6 | ID 61 - Press
     private void Tile86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile86ActionPerformed
         int ID = 61;
         int type;
@@ -2023,7 +2049,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile86ActionPerformed
-
+    
+    //Tile 8,7 | ID 62 - Press
     private void Tile87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile87ActionPerformed
         int ID = 62;
         int type;
@@ -2032,7 +2059,8 @@ public class GameBoard3_2 extends javax.swing.JFrame {
         type = tileControl.get8x8TileType(ID);
         buttonPress(ID, type);
     }//GEN-LAST:event_Tile87ActionPerformed
-
+    
+    //Tile 8,8 | ID 63 - Press
     private void Tile88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tile88ActionPerformed
         int ID = 63;
         int type;
@@ -2846,7 +2874,7 @@ public class GameBoard3_2 extends javax.swing.JFrame {
             }
             else {
                 match = testMatch(type_Guess1, type_Guess2);
-
+                //scoring system
                 if(!match){
                     System.out.println("     *No Match.*     ");
                     score = score - 1;

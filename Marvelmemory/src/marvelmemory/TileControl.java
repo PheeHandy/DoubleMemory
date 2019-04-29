@@ -320,7 +320,7 @@ public class TileControl {
     public void initShuffle8x8Tiles(){
         int n = 0;
 
-        //first add all the numbers from 0 to 35 into an array list, then shuffle it.
+        //first add all the numbers from 0 to 63 into an array list, then shuffle it.
         //then assign the value in slot 0 to a shape, etc etc. each shape gets a random value. 
         List<Integer> randomCollection = new ArrayList<>();
         for (int i = 0; i <= 63; i++){
