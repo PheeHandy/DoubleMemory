@@ -32,7 +32,7 @@ public class Howtoplay extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
 
-        //setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
         jLabel1.setText("How to play");
@@ -49,7 +49,7 @@ public class Howtoplay extends javax.swing.JFrame {
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
         jTextArea1.setRows(5);
-        jTextArea1.setText("     \n     Choose a card to reveal the image on the back.\n Choose another card to try and find the matching image.\n If you don't find the matching pair and then you touch\n another card, both cards will turn back over. Make sure\n you remember where each image is, so when you come \n across the missing pair you will know where the original\n one is! Match all the cards to win!");
+        jTextArea1.setText("     \n     Choose a card to reveal the image on the back.\n Choose another card to try and find the matching image.\n If you don't find the matching pair and then you touch\n another card, both cards will turn back over. Make sure\n you remember where each image is, so when you come \n across the missing pair you will know where the original\n one is! Match all the cards to win!\n\n Game Mode rule\n The game will have 3 modes of play and each of them \n has the same scoring system (+3 if match,\n -1 if unmatched) but it will have different size of \n the board in the following:\n 1.4x4 board size (Easy mode)\n 2.6x6 board size (Normal mode)\n 3.8x8 board size (Hard mode)\n\n\n");
         jTextArea1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         jTextArea1.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         jScrollPane2.setViewportView(jTextArea1);

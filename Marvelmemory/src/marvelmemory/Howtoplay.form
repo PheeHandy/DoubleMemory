@@ -85,7 +85,7 @@
               <Font name="Monospaced" size="18" style="0"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="     &#xa;     Choose a card to reveal the image on the back.&#xa; Choose another card to try and find the matching image.&#xa; If you don&apos;t find the matching pair and then you touch&#xa; another card, both cards will turn back over. Make sure&#xa; you remember where each image is, so when you come &#xa; across the missing pair you will know where the original&#xa; one is! Match all the cards to win!"/>
+            <Property name="text" type="java.lang.String" value="     &#xa;     Choose a card to reveal the image on the back.&#xa; Choose another card to try and find the matching image.&#xa; If you don&apos;t find the matching pair and then you touch&#xa; another card, both cards will turn back over. Make sure&#xa; you remember where each image is, so when you come &#xa; across the missing pair you will know where the original&#xa; one is! Match all the cards to win!&#xa;&#xa; Game Mode rule&#xa; The game will have 3 modes of play and each of them &#xa; has the same scoring system (+3 if match,&#xa; -1 if unmatched) but it will have different size of &#xa; the board in the following:&#xa; 1.4x4 board size (Easy mode)&#xa; 2.6x6 board size (Normal mode)&#xa; 3.8x8 board size (Hard mode)&#xa;&#xa;&#xa;"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Text Cursor"/>
             </Property>
