@@ -50,7 +50,7 @@ public class GameBoard extends javax.swing.JFrame {
         ALL.add(A31);
         ALL.add(A32);
         ALL.add(A33);
-        ALL.add(A33);
+        ALL.add(A34);
         ALL.add(A35);
         ALL.add(A36);
         ALL.add(A37);
