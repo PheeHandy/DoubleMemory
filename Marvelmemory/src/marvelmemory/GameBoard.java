@@ -92,7 +92,7 @@ public class GameBoard extends javax.swing.JFrame {
         enableDebug = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("4x4 Memory Game");
+        setTitle("4x4 Marvelmemory Game");
         setResizable(false);
 
         Tile11.setEnabled(false);
@@ -903,12 +903,12 @@ public class GameBoard extends javax.swing.JFrame {
                 !Tile31.isEnabled() && !Tile32.isEnabled() && !Tile33.isEnabled() && !Tile34.isEnabled() &&
                 !Tile41.isEnabled() && !Tile42.isEnabled() && !Tile43.isEnabled() && !Tile44.isEnabled()){
         
-            /*accuracy = correctPairs / totalPairs * 100;
+            accuracy = correctPairs / totalPairs * 100;
             accuracy = Math.round (accuracy * 10.0) / 10.0; 
             System.out.println("============GAME=OVER===========\n"
                         + "Total Pairs: " + totalPairs + " Correct Pairs: " + correctPairs + "\n"
                         + "Accuracy: " + accuracy + "%\n"
-                        + "Score: " + score);*/
+                        + "Score: " + score);
             
             if (score > 0){
                 JOptionPane.showMessageDialog(rootPane,

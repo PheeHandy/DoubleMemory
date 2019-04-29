@@ -43,7 +43,7 @@ public class MainMenuForm extends javax.swing.JFrame {
         Start6x6Button = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Welcome to MemoryTiles");
+        setTitle("Welcome to Marvelmemory");
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         MainMenuLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/memorygame/avengers1.png"))); // NOI18N

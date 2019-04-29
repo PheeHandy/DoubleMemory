@@ -115,7 +115,7 @@ public class GameBoard2 extends javax.swing.JFrame {
         enableDebug = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("6x6 Memory Game");
+        setTitle("6x6 Marvelmemory Game");
 
         ScoreScreenLabel.setFont(new java.awt.Font("FreeSerif", 1, 14)); // NOI18N
         ScoreScreenLabel.setText("SCORE:");
