@@ -1,9 +1,7 @@
 package marvelmemory;
 import java.util.*;
 
-/**
- * @author reprise
- */
+
 public class TileControl {
     //GLOBALS 
     

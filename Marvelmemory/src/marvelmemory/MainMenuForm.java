@@ -1,12 +1,10 @@
 package marvelmemory;
 
 import java.awt.Toolkit;
+import javax.swing.ImageIcon;
 
 
-/**
- * @author reprise
- */
-public class MainMenuForm extends javax.swing.JFrame {
+public class MainMenuForm extends javax.swing.JFrame{
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton ExitButton;

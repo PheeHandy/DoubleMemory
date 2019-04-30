@@ -6,9 +6,8 @@ import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
-/*
- * @author reprise
- */
+
+
 public class GameBoard3_2 extends javax.swing.JFrame {
     
     //Creates new form GameBoard2
